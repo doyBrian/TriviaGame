@@ -22,7 +22,7 @@ var questions = [
      choices: ["Mo Mocha", "Mocha Loca", "Mocha Choca", "Mocha"],
      answer: '1',
      image: "./assets/images/Menu.jpg"},
-    {question: "What animal can be seen in that photo?",
+    {question: "Which animal can be seen in the photo?",
      choices: ["Dog", "Cat", "Bird", "Squirrel"],
      answer: '3',
      image: "./assets/images/Park.jpg"},
@@ -34,11 +34,11 @@ var questions = [
      choices: ["2 for $1", "77 cents", "$1", "$1.29"],
      answer: '4',
      image: "./assets/images/Vegetables.jpg"},
-     {question: "The number showing in front of Dr. Pepper bottles lane.",
+     {question: "The number showing in front of a row of Dr. Pepper bottles.",
      choices: ["12", "13", "14", "15"],
      answer: '2',
      image: "./assets/images/Soda.jpg"},
-     {question: "How many boys are in that photo?",
+     {question: "How many pairs of sandals are visible in the photo?",
      choices: ["Four", "Three", "Two", "One"],
      answer: '3',
      image: "./assets/images/Kids.jpg"},
@@ -46,7 +46,7 @@ var questions = [
      choices: ["None", "Three", "One", "Two"],
      answer: '3',
      image: "./assets/images/Theatre.jpg"},
-     {question: "What letter precedes the bus number 102_?",
+     {question: "Which letter follows the bus number 102_?",
      choices: ["R", "P", "M", "S"],
      answer: '2',
      image: "./assets/images/Bus.jpg"}
@@ -77,7 +77,7 @@ $(".start").click( function() {
 function startSlideshow() {
     displayImage();
     // TODO: Use showImage to hold the setInterval to run nextImage.
-    showImage = setInterval(displayImage, 1000*16);
+    showImage = setInterval(displayImage, 1000*18);
 }
 
 // This function will replace display whatever image it's given
@@ -89,7 +89,7 @@ function displayImage() {
 
     $("#image-holder").html("<img src='" + questions[index].image + "'>");
 
-    setTimeout(display, 5000);      
+    setTimeout(display, 7000);      
 }
 
 function display() {
