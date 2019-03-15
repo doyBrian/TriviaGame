@@ -5,6 +5,11 @@ A web game that uses Javascript setInterval(), setTimeout() and clearInterval()
 
 In this assignment, I have created a Trivia game using JavaScript for the logic and jQuery to manipulate HTML. I also applied a layout on this app with valid HTML and stylish CSS using animation.
 
+
+### Deployed Site Link
+https://doybrian.github.io/TriviaGame/
+
+
 ### Game Design Notes 
 
 * The game is called Flash Memory, a memory test game. Images will be displayed in a flash and the player needs to answer a question - in a flash - relating to the image.
